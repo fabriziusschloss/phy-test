@@ -1,10 +1,22 @@
+import os
+from dotenv import load_dotenv
+
+# Laden Sie die Werte aus der .env-Datei
+load_dotenv()
+
+# Verwenden Sie den Wert aus der .env-Datei
+SERVICE_ACCOUNT_FILE = os.getenv("SERVICE_ACCOUNT_FILE")
+
+# ... Rest des Skripts bleibt unverändert ...
+
+
 # Importieren Sie die erforderlichen Bibliotheken
 from oauth2client.service_account import ServiceAccountCredentials
 from googleapiclient.discovery import build
 import httplib2
 
 # Ersetzen Sie den Pfad zur JSON-Schlüsseldatei Ihres Servicekontos
-SERVICE_ACCOUNT_FILE = "C:\\Users\\fabian\\git-hub\\gaapireport-691250c1e39f.json"
+#SERVICE_ACCOUNT_FILE = "C:\\Users\\fabian\\git-hub\\gaapireport-691250c1e39f.json"
 
 
 # Definieren Sie den OAuth 2.0-Bereich (Scope) für die Google Search Console API
