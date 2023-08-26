@@ -4,7 +4,8 @@ from googleapiclient.discovery import build
 import httplib2
 
 # Ersetzen Sie den Pfad zur JSON-Schlüsseldatei Ihres Servicekontos
-SERVICE_ACCOUNT_FILE = ""
+SERVICE_ACCOUNT_FILE = "C:\\Users\\fabian\\git-hub\\gaapireport-691250c1e39f.json"
+
 
 # Definieren Sie den OAuth 2.0-Bereich (Scope) für die Google Search Console API
 OAUTH_SCOPE = "https://www.googleapis.com/auth/webmasters.readonly"
