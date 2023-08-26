@@ -1,0 +1,6 @@
+# Andere ausgeschlossene Dateien oder Verzeichnisse
+some_directory/
+another_ignored_file.txt
+
+# .env ausschließen
+.env
